@@ -2,7 +2,8 @@
 Ashley Koo hk2827
 Joanna Le jl4624
 
-Youtube URL: https://youtu.be/WqaAWCXMUr0 \\
-We do not have a script, but please see relevant files:
-* zoom_generator.ipynb shows how training/test data is prepared. Patches and binary mask values are extracted.
-* models.ipynb shows trained models that we tried with output. 
+This project is based on a Applied Deep Learning class at Columbia University (https://mice.cs.columbia.edu/c/d.php?d=255&). We use Deep Learning to improve the detection of cancer metastasis, which is outlined by the CAMELYON16 challenge here: https://camelyon16.grand-challenge.org/Background/
+
+Please see relevant files:
+* zoom_generator.ipynb prepares training/testing data. In the process, patches of various sizes and binary mask values are extracted.
+* models.ipynb runs trained models and compares with actual output. 
